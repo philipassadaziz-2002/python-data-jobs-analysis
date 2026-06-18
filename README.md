@@ -1,6 +1,6 @@
 # Python Data Jobs Analysis
 
-## Overview
+# Overview
 
 This project analyzes job market demand for data professionals across three key dimensions:
 skill trends throughout the year, skill requirements by job role, and compensation for
@@ -11,7 +11,19 @@ that drive hiring decisions, skill priorities, and salary benchmarks across the 
 
 ---
 
-## Business Questions
+# Business Questions
+
+- 1. **Skill Demand Analysis**
+
+ Which data analyst job skills are most in-demand, and how do they trend seasonally throughout the year?
+- 2. **Top Skills Comparison Across Job Titles**
+
+ How do skill requirements differ across Data Analyst, Data Engineer, and Data Scientist roles?
+- 3. **Top 5 Companies by Median Salary For Data Scientists**
+
+ Which companies offer the highest median salaries for Data Scientists in the United States?
+
+# **Skill Demand Analysis**
 
 ### 1. Which data analyst job skills are most in-demand, and how do they trend seasonally throughout the year?
 
@@ -21,7 +33,7 @@ that drive hiring decisions, skill priorities, and salary benchmarks across the 
 - Track monthly trends across all months
 - Visualize seasonality patterns
 
-**🐍 Script:** [Skill Demand Analysis](/Queries/Q1_Skill_Demand_analysis.ipynb)
+**🐍 Script:** [Skill Demand Analysis](/Queries/Q1_Skill_Demand_analysis.md)
 
 **📊 Visualization:**
 
@@ -34,13 +46,11 @@ that drive hiring decisions, skill priorities, and salary benchmarks across the 
 - Tableau shows stable but lower demand (~4,000 range)
 - Power BI remains supplementary skill (~3,000-4,000 range)
 
-**💡 Business Insights:**
-- SQL is non-negotiable for Data Analyst roles — invest heavily
-- Excel remains critical despite declining demand
-- Python + SQL combination is the minimum competitive requirement
-- Power BI & Tableau are supplementary, not primary requirements
+
 
 ---
+
+# **Top Skills Comparison Across Job Titles**
 
 ### 2. How do skill requirements differ across Data Analyst, Data Engineer, and Data Scientist roles?
 
@@ -50,29 +60,23 @@ that drive hiring decisions, skill priorities, and salary benchmarks across the 
 - Compare skill overlap and unique requirements
 - Identify role-specific differentiators
 
-**🐍 Script:** [Top Skills Comparison Across Job Titles](/Queries/Q2_Top_Skills_Comparison_Across_Job_Titles.ipynb)
+**🐍 Script:** [Top Skills Comparison Across Job Titles](/Queries/Q2_Top_Skills_Comparison_Across_Job_Titles.md)
 
 **📊 Visualization:**
 
 ![Q2](/images/Q2_Top_Skills_Comparison_Across_Job_Titles.png)
 
 **📊 Key Findings:**
-- **Data Analyst:** SQL (100k+), Excel (75k), Python (60k), Tableau (45k), Power BI (40k)
-- **Data Engineer:** Python (105k+), SQL (95k), AWS (60k), Azure (55k), Spark (50k)
-- **Data Scientist:** Python (115k+), SQL (85k), R (65k), SAS (40k), Tableau (25k)
 - SQL is universal across all three roles — mandatory skill for all
 - Python is highest for Data Scientists, critical for Engineers, important for Analysts
 - Cloud skills (AWS, Azure) unique to Data Engineer roles
 - Statistics tools (R, SAS) exclusive to Data Scientists
 
-**💡 Business Insights:**
-- Different roles require different skill stacks — tailor learning paths accordingly
-- Data Engineers focus on infrastructure (cloud, big data tools) — more specialized
-- Data Scientists need statistical depth (R, SAS) beyond just programming
-- SQL + Python combination is the bridge skill across all three roles
-- Data Analysts need business tools (Excel, Tableau) for communication and dashboards
+
 
 ---
+
+# **Top 5 Companies by Median Salary For Data Scientists**
 
 ### 3. Which companies offer the highest median salaries for Data Scientists in the United States?
 
@@ -82,7 +86,7 @@ that drive hiring decisions, skill priorities, and salary benchmarks across the 
 - Calculate median salary by company
 - Identify top 5 highest-paying companies
 
-**🐍 Script:** [Top 5 Companies by Median Salary for Data Scientists](/Queries/Q3_Top%205_Companies_by_Median_Salary_for_Data_Scientists.ipynb)
+**🐍 Script:** [Top 5 Companies by Median Salary for Data Scientists](/Queries/Q3_Top%205_Companies_by_Median_Salary_for_Data_Scientists.md)
 
 **📊 Visualization:**
 
@@ -95,34 +99,9 @@ that drive hiring decisions, skill priorities, and salary benchmarks across the 
 - Salary range: $375,000 - $585,000 (56% premium between lowest and highest)
 - Top payer (ReServe) offers $210,000+ more than bottom tier
 
-**💡 Business Insights:**
-- Significant salary variation exists among data scientist employers — strategic job selection matters
-- Tech-adjacent companies (ReServe, utilities) offer premium compensation
-- ReServe's premium suggests high-impact data science responsibilities or specialized domain knowledge
-- Career progression opportunity: moving to top-tier companies can increase salary by 56%
-- Geographic concentration may indicate cost-of-living adjustments — verify location details
 
----
 
-## Strategic Recommendations
 
-1. **Develop SQL + Python mastery first**
-   
-   Both skills are universal across Data Analyst, Engineer, and Scientist roles.
-   Master these before specializing in role-specific tools to maintain flexibility.
-
-2. **Specialize based on career path**
-   
-   - Data Analyst: Excel + Tableau for dashboards and communication
-   - Data Engineer: Python + AWS/Azure for infrastructure and automation
-   - Data Scientist: Python + R/SAS for statistical depth and modeling
-
-3. **Target high-paying companies strategically**
-   
-   Salary variation of 56% between top and bottom tier companies suggests
-   researching employer compensation is critical for career advancement.
-
----
 
 ## Technical Details
 
